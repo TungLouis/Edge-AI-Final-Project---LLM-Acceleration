@@ -9,5 +9,5 @@ model page [https://huggingface.co/tunglouis/awq_wbit4](https://huggingface.co/t
 
 測試ppl 加上 -p
 
-只能擇一
+只能擇一(python result.py -t/python result.py -p)
 
