@@ -1,0 +1,8 @@
+PyTorch version: 2.6.0+cu124
+pip install transformers
+pip install trl
+pip install vllm
+pip install peft
+pip install autoawq
+pip install datasets
+pip install tqdm
