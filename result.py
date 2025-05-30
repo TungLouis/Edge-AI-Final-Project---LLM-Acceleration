@@ -55,7 +55,7 @@ def main():
     from vllm import LLM, SamplingParams
 
     args = get_args()
-    model_name = "awq_wbit4_gs128"
+    model_name = "tunglouis/qlora_awq_wbit4_gs256"
 
     if args.throughput:
         params = SamplingParams(
