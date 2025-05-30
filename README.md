@@ -1,7 +1,7 @@
 # Edge-AI-Final-Project---LLM-Acceleration
 Group 8
 
-model page [https://huggingface.co/tunglouis/awq_wbit4](https://huggingface.co/tunglouis/awq_wbit4)
+model page https://huggingface.co/tunglouis/qlora_awq_wbit4_gs256
 
 環境按照requirements.txt
 
