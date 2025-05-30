@@ -6,3 +6,8 @@ pip install peft
 pip install autoawq
 pip install datasets
 pip install tqdm
+
+還續將函式庫中lib/python3.10/site-packages/awq/modules/triton/gemm.py 這一個檔案的第21行
+
+AWQ_TRITON_SUPPORTED_GROUP_SIZES = [-1, 32, 64, 128]
+改成AWQ_TRITON_SUPPORTED_GROUP_SIZES = [-1, 32, 64, 128, 256]
