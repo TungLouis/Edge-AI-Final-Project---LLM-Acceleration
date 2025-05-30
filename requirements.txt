@@ -1,4 +1,4 @@
-PyTorch version: 2.7.0+cu124
+PyTorch version: 2.6.0+cu124
 pip install transformers
 pip install trl
 pip install vllm
@@ -10,5 +10,4 @@ pip install tqdm
 還續將函式庫中lib/python3.10/site-packages/awq/modules/triton/gemm.py 這一個檔案的第21行
 
 AWQ_TRITON_SUPPORTED_GROUP_SIZES = [-1, 32, 64, 128]
-改成
-AWQ_TRITON_SUPPORTED_GROUP_SIZES = [-1, 32, 64, 128, 256]
+改成AWQ_TRITON_SUPPORTED_GROUP_SIZES = [-1, 32, 64, 128, 256]
